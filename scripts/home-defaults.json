@@ -1,0 +1,73 @@
+{
+  "affiliation": "Open Frontier Lab · Virtual research organization",
+  "heroTitle": "Research in AI, power systems, and quantum computing.",
+  "heroDescription": "Open Frontier Lab conducts research in artificial intelligence for power systems and applied quantum machine learning, supported by practical courses and guided research.",
+  "heroImage": null,
+  "primaryAction": {
+    "label": "Explore our research",
+    "url": "/projects"
+  },
+  "secondaryAction": {
+    "label": "Join the lab",
+    "url": "/labs"
+  },
+  "introduction": "Open Frontier Lab brings together researchers and learners to study intelligent energy systems, quantum machine learning, and secure infrastructure through collaborative research, open resources, and hands-on training.",
+  "whatWeDo": {
+    "label": "What we do",
+    "title": "Research in intelligent energy and quantum learning",
+    "description": "Our virtual labs connect research, education, and mentorship across artificial intelligence, power systems, and quantum computing.",
+    "areas": [
+      {
+        "icon": "bolt",
+        "title": "AI in power systems",
+        "description": "Applying machine learning to electricity demand forecasting, renewable integration, and reliable power system operation.",
+        "url": "/labs/ai-in-power-system"
+      },
+      {
+        "icon": "atom",
+        "title": "Applied quantum learning",
+        "description": "Evaluating quantum algorithms, feature maps, and hybrid learning methods through reproducible experiments.",
+        "url": "/labs/applied-qml"
+      },
+      {
+        "icon": "shield",
+        "title": "Secure intelligent systems",
+        "description": "Investigating anomaly detection and machine learning methods for connected energy infrastructure.",
+        "url": "/projects/grid-cyber-defense"
+      },
+      {
+        "icon": "book",
+        "title": "Research education",
+        "description": "Supporting new researchers with practical courses, reading resources, mentorship, and guided internships.",
+        "url": "/courses"
+      }
+    ]
+  },
+  "featuredEvent": {
+    "label": "Featured event",
+    "slug": null,
+    "buttonLabel": "Event details"
+  },
+  "research": {
+    "label": "Research",
+    "title": "Current Research Initiatives",
+    "linkLabel": "All research initiatives",
+    "linkUrl": "/projects",
+    "fundedLabel": "Funded research projects",
+    "itemLinkLabel": "Learn more"
+  },
+  "publications": {
+    "label": "Publications",
+    "title": "Recent research output",
+    "linkLabel": "Browse research",
+    "linkUrl": "/publications",
+    "limit": 4
+  },
+  "collaboration": {
+    "title": "Research collaboration and lab enrollment",
+    "description": "Contact the lab to discuss research partnerships, student projects, guided internships, or participation in our virtual learning programs.",
+    "buttonLabel": "Contact the lab",
+    "buttonUrl": "/contact"
+  },
+  "heroBackground": null
+}

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 Disallow: /registrations
-Sitemap: https://open-frontier-lab-v1.lilacboar64.chatgpt.site/sitemap.xml

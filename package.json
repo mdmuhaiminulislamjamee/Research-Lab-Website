@@ -1,11 +1,13 @@
 {
   "name": "open-frontier-lab-v1",
   "version": "1.0.0",
+  "description": "A responsive research lab website for AI in power systems and applied quantum machine learning.",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
-    "check": "node --check dist/app.js && node scripts/check.mjs"
+    "check": "node --check dist/app.js && node --check dist/home.js && node scripts/check.mjs"
   }
 }

@@ -4,11 +4,11 @@
   "organization": {
     "name": "Open Frontier Lab",
     "shortName": "OFL",
-    "tagline": "Research without boundaries.",
-    "eyebrow": "A VIRTUAL HOME FOR CURIOUS MINDS",
-    "heroTitle": "Ideas that connect.\nResearch that matters.",
-    "heroDescription": "Exploring the intersection of artificial intelligence, power systems, and quantum computing. Together, from anywhere.",
-    "description": "We are a collaborative virtual research community turning curiosity into practical solutions. Through open resources, guided research, and hands-on learning, we make the frontier of science more accessible.",
+    "tagline": "Research and education in AI, power systems, and quantum computing.",
+    "eyebrow": "Virtual research organization",
+    "heroTitle": "Research in AI, power systems, and quantum computing.",
+    "heroDescription": "Open Frontier Lab conducts research in artificial intelligence for power systems and applied quantum machine learning, supported by practical courses and guided research.",
+    "description": "Open Frontier Lab brings together researchers and learners to study intelligent energy systems, quantum machine learning, and secure infrastructure through collaborative research, open resources, and hands-on training.",
     "email": "hello@example.org",
     "address": "Virtual lab · Based in Bangladesh · Connected worldwide",
     "founded": "2024",
@@ -20,26 +20,27 @@
     },
     "stats": [
       {
-        "value": "12",
-        "label": "Research members"
+        "value": "8",
+        "label": "Team members"
       },
       {
-        "value": "04",
-        "label": "Active projects"
+        "value": "4",
+        "label": "Research projects"
       },
       {
-        "value": "02",
-        "label": "Virtual labs"
+        "value": "3",
+        "label": "Publications"
       },
       {
-        "value": "05",
-        "label": "Learning pathways"
+        "value": "5",
+        "label": "Courses"
       }
     ],
     "registrationEndpoint": null,
     "enrollmentEndpoint": null,
     "newsletterEndpoint": null,
-    "contactEndpoint": null
+    "contactEndpoint": null,
+    "registrationUrl": null
   },
   "navigation": [
     {
@@ -72,8 +73,8 @@
     }
   ],
   "about": {
-    "title": "An open space for\nextraordinary ideas.",
-    "intro": "Good research begins with a question. Great research grows when we ask it together.",
+    "title": "About Open Frontier Lab",
+    "intro": "Research, education, and mentorship through a collaborative virtual lab.",
     "story": "Open Frontier Lab is an illustrative virtual research organization built around a simple idea: geography should never limit the opportunity to learn and contribute. Our virtual spaces bring together students, mentors, and researchers to investigate intelligent energy systems and quantum learning.",
     "storyMore": "Our working rhythm combines reading groups, practical experiments, and open discussion. Learners progress from foundational courses to guided projects, with resources designed to be revisited at their own pace.",
     "pillars": [
@@ -379,7 +380,7 @@
       "slug": "ai-in-power-system",
       "number": "01",
       "title": "AI in Power System Lab",
-      "shortTitle": "Intelligence for a\nresilient energy future.",
+      "shortTitle": "AI in Power System Lab",
       "category": "ENERGY × ARTIFICIAL INTELLIGENCE",
       "icon": "bolt",
       "color": "mint",
@@ -431,13 +432,14 @@
         }
       ],
       "internship": "A guided 8-week research internship with weekly mentorship, a reproducible mini-project, and a final presentation.",
-      "certificate": "A completion certificate is planned for learners who finish the assigned modules, submit the project, and complete the final review."
+      "certificate": "A completion certificate is planned for learners who finish the assigned modules, submit the project, and complete the final review.",
+      "heroImage": null
     },
     {
       "slug": "applied-qml",
       "number": "02",
       "title": "Applied Quantum Machine Learning Lab",
-      "shortTitle": "Small qubits.\nBig possibilities.",
+      "shortTitle": "Applied Quantum Machine Learning Lab",
       "category": "QUANTUM COMPUTING × MACHINE LEARNING",
       "icon": "atom",
       "color": "lavender",
@@ -486,7 +488,8 @@
         }
       ],
       "internship": "A guided 8-week research internship exploring a small quantum learning experiment with classical baselines.",
-      "certificate": "A completion certificate is planned for learners who finish the learning pathway and present a documented research experiment."
+      "certificate": "A completion certificate is planned for learners who finish the learning pathway and present a documented research experiment.",
+      "heroImage": null
     }
   ],
   "projects": [
@@ -978,5 +981,78 @@
       "text": "Five practical courses connect the foundations with research.",
       "url": "/courses"
     }
-  ]
+  ],
+  "home": {
+    "affiliation": "Open Frontier Lab · Virtual research organization",
+    "heroTitle": "Research in AI, power systems, and quantum computing.",
+    "heroDescription": "Open Frontier Lab conducts research in artificial intelligence for power systems and applied quantum machine learning, supported by practical courses and guided research.",
+    "heroImage": null,
+    "primaryAction": {
+      "label": "Explore our research",
+      "url": "/projects"
+    },
+    "secondaryAction": {
+      "label": "Join the lab",
+      "url": "/labs"
+    },
+    "introduction": "Open Frontier Lab brings together researchers and learners to study intelligent energy systems, quantum machine learning, and secure infrastructure through collaborative research, open resources, and hands-on training.",
+    "whatWeDo": {
+      "label": "What we do",
+      "title": "Research in intelligent energy and quantum learning",
+      "description": "Our virtual labs connect research, education, and mentorship across artificial intelligence, power systems, and quantum computing.",
+      "areas": [
+        {
+          "icon": "bolt",
+          "title": "AI in power systems",
+          "description": "Applying machine learning to electricity demand forecasting, renewable integration, and reliable power system operation.",
+          "url": "/labs/ai-in-power-system"
+        },
+        {
+          "icon": "atom",
+          "title": "Applied quantum learning",
+          "description": "Evaluating quantum algorithms, feature maps, and hybrid learning methods through reproducible experiments.",
+          "url": "/labs/applied-qml"
+        },
+        {
+          "icon": "shield",
+          "title": "Secure intelligent systems",
+          "description": "Investigating anomaly detection and machine learning methods for connected energy infrastructure.",
+          "url": "/projects/grid-cyber-defense"
+        },
+        {
+          "icon": "book",
+          "title": "Research education",
+          "description": "Supporting new researchers with practical courses, reading resources, mentorship, and guided internships.",
+          "url": "/courses"
+        }
+      ]
+    },
+    "featuredEvent": {
+      "label": "Featured event",
+      "slug": null,
+      "buttonLabel": "Event details"
+    },
+    "research": {
+      "label": "Research",
+      "title": "Current Research Initiatives",
+      "linkLabel": "All research initiatives",
+      "linkUrl": "/projects",
+      "fundedLabel": "Funded research projects",
+      "itemLinkLabel": "Learn more"
+    },
+    "publications": {
+      "label": "Publications",
+      "title": "Recent research output",
+      "linkLabel": "Browse research",
+      "linkUrl": "/publications",
+      "limit": 4
+    },
+    "collaboration": {
+      "title": "Research collaboration and lab enrollment",
+      "description": "Contact the lab to discuss research partnerships, student projects, guided internships, or participation in our virtual learning programs.",
+      "buttonLabel": "Contact the lab",
+      "buttonUrl": "/contact"
+    },
+    "heroBackground": null
+  }
 }
