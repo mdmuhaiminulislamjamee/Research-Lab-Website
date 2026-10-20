@@ -1,4 +1,4 @@
-# Open Frontier Lab — v1
+# Open Frontier Lab: v1
 
 A responsive research lab website for artificial intelligence in power systems and applied quantum machine learning, with editable projects, publications, courses, events, and team portfolios. The organization name, people, papers, funding, and academic affiliations are **demo content**. No photo or video files are included. Missing media uses initials, drawn diagrams, or a clear availability message.
 
